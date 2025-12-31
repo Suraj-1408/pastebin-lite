@@ -1,3 +1,7 @@
+// app/page.tsx
+export const metadata = {
+  title: "Pastebin-Lite"  
+};
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#0f172a] to-[#020617] text-white">
