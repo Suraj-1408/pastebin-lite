@@ -1,3 +1,5 @@
+export const runtime = "nodejs";    // Required for PostgreSQL (`pg`) — Vercel Edge runtime does not support Node DB drivers
+
 import { NextResponse } from "next/server";
 import pool from "@/lib/db";
 
