@@ -7,15 +7,20 @@ export async function GET(req: Request,context : { params: Promise<{ id: string 
   const { id } = await context.params;
      console.log("Fetching paste ID:", id);
   try {
+    console.log("Querying database for paste ID:", id);
+
     // Fetch paste by ID
     const result = await pool.query(
       `SELECT * FROM pastes WHERE id = $1`,
       [id]
     );
-
-    console.log("DB result:", result.rows);
+    
+    console.log("DB query result rows:", result.rows);
+    console.log("Number of rows found:", result.rows.length);
+    //console.log("DB result:", result.rows);
 
     if (!result.rows.length) {
+        console.log("No rows found → returning 404 Paste not found");
       // Paste not found
       return NextResponse.json({ error: "Paste not found" }, { status: 404 });
     }
