@@ -74,9 +74,21 @@ export default function CreatePastePage() {
       
       <div className="w-full max-w-2xl bg-white/5 backdrop-blur rounded-xl border border-white/10 p-6 sm:p-8 shadow-lg">
 
-        <h1 className="text-2xl sm:text-3xl font-bold mb-6 text-center text-white">
+        {/* <h1 className="text-2xl sm:text-3xl font-bold mb-6 text-center text-white">
+          Create a Paste
+        </h1> */}
+      <div className="flex items-center justify-between mb-6">
+        <h1 className="text-2xl sm:text-3xl font-bold text-white">
           Create a Paste
         </h1>
+      
+        <Link
+          href="/my-pastes"
+          className="text-sm text-[#38bdf8] hover:text-[#0ea5e9] transition"
+        >
+          My Pastes
+        </Link>
+      </div>
 
         {/* Content */}
         <div className="mb-4">
