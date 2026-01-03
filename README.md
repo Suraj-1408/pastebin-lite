@@ -29,21 +29,24 @@ Pastebin-lite is a lightweight, full-stack web application that allows users to 
 #### 4)Vercel - Used for app deployment.
 
 # How to run project locally
-1)Clone the repo -
+### 1)Clone the repo -
 ```
   git clone https://github.com/Suraj-1408/pastebin-lite.git
   cd pastebin-lite
 ```
 
-2)Install dependencies- 
+### 2)Install dependencies- 
 ```
 npm install
 ```
 
-3) Setup Supabase -
-i)Create a project at https://supabase.com
+### 3) Setup Supabase - 
+#### i)Create a supabase project
+1)Go to supabase.com → Sign up → New Project
+2)Give a project name, set a password, and choose region
 
-ii)Create a pastes table:
+
+#### ii)Create a pastes table using SQL editor:
 ```
    create table pastes (
   id uuid primary key,
@@ -54,8 +57,15 @@ ii)Create a pastes table:
   views integer default 0
 );
 ```
+Here ,
+1)id → unique identifier
+2)content → paste text
+3)created_at → creation timestamp
+4)expires_at → optional expiry
+5)max_views → optional max views
 
-4)Add Environment Variable - 
+
+### 4)Add Environment Variable - 
 ```
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 DB_HOST=Your host name
