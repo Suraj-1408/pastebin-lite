@@ -19,8 +19,8 @@ Pastebin-lite is a lightweight, full-stack web application that allows users to 
 # How to run project locally
 1)Clone the repo -
 `
-git clone https://github.com/Suraj-1408/pastebin-lite.git\n
-cd pastebin-lite
+  git clone https://github.com/Suraj-1408/pastebin-lite.git
+  cd pastebin-lite
 `
 
 2)Install dependencies- 
