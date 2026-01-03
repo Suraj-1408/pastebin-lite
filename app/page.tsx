@@ -9,7 +9,7 @@ export default function HomePage() {
       {/* HERO */}
       <section className="max-w-6xl mx-auto px-6 py-24 text-center">
         <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-          Create a Sharable links in Seconds
+          Create a Shareable links in Seconds
           <span className="block text-[#38bdf8] mt-2">
             Auto-Expire. View-Limited. Easy to Use.
           </span>
