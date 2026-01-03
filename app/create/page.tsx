@@ -19,6 +19,19 @@ export default function CreatePastePage() {
     setTimeout(() => setCopied(false), 2000);
   };
 
+
+  //making use of localstorage to show users past pastes.
+  function savePasteToLocal(url: string) {
+  const existing = JSON.parse(localStorage.getItem("my_pastes") || "[]");
+
+  existing.unshift({
+    url,
+    createdAt: new Date().toISOString(),
+  });
+
+  localStorage.setItem("my_pastes", JSON.stringify(existing));
+}
+
   async function handleSubmit() {
     setError(null);
     setResult(null);
@@ -41,6 +54,9 @@ export default function CreatePastePage() {
         setError(data.error || "Something went wrong");
         return;
       }
+
+      //saving the paste to local storage.
+      savePasteToLocal(data.url);
 
       setResult(data.url);
       setContent("");
