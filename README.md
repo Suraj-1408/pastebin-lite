@@ -58,14 +58,15 @@ npm install
 );
 ```
 Here ,
-1)id → unique identifier
-2)content → paste text
-3)created_at → creation timestamp
-4)expires_at → optional expiry
-5)max_views → optional max views
+1)id → unique identifier 
+2)content → paste text 
+3)created_at → creation timestamp 
+4)expires_at → optional expiry 
+5)max_views → optional max views 
+6)views → view count
 
 
-### 4)Add Environment Variable - 
+### 4)Add Environment Variable to your local- 
 ```
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 DB_HOST=Your host name
@@ -77,14 +78,15 @@ DB_SSL=true
 NODE_ENV=development
 ```
 
-5)Start the app using - 
+### 5)Start the app using - 
 ```
 npm run dev
 ```
 
 
-6) Routes -
-i)`/` → Home
-ii)`/create` → Create paste
-iii)`/p/[id]` → View paste
-iv)`/my_pastes` → My pastes
+### 6) Persistence Layer - 
+Supabase (PostgreSQL) – Used to Store all pastes content (pastes table) , Store metadata (created_at, views, max_views, expires_at).
+
+### 7) Important Design Decisions: 
+Used Next.js API routes as the backend for simplicity and Vercel deployment, Supabase for database and storage, environment variables for secure configuration, and a pastes table designed with expires_at, max_views, and views for flexibility.
+ 
