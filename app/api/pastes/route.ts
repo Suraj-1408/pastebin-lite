@@ -3,12 +3,6 @@ import pool from "@/lib/db";
 
 export async function POST(req: Request) {
   console.log("Inside Paste bin API");
-  console.log('DB_USER:', process.env.DB_USER); 
-  console.log('DB_PORT:', process.env.DB_PORT);
-  console.log('DB_NAME:', process.env.DB_NAME);
-  console.log('DB_PASSWORD:', process.env.DB_PASSWORD ? '[HIDDEN]' : 'MISSING');
-  console.log('DB_SSL:', process.env.DB_SSL);
-  console.log('====================');
 
   //printing db values
   console.log("DB HOST:", process.env.DB_HOST);
