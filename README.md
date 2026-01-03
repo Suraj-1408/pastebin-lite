@@ -1,13 +1,13 @@
-# pastebin-lite
+# Pastebin-lite
 Pastebin-lite is a lightweight, full-stack web application that allows users to easily create, share, and manage text snippets or code snippets online. Inspired by the popular Pastebin platform, this project is designed for simplicity, speed, and usability. Users can create “pastes” with optional expiration times and limited views.
 
 # Features
-### Create text/code pastes
-### Shareable URLs
-### Auto expiry (TTL)
-### View limits
-### Clean, responsive UI
-### No signup required
+#### 1)Create text/code pastes
+#### 2)Shareable URLs
+#### 3)Auto expiry (TTL)
+#### 4)View limits
+#### 5)Clean, responsive UI
+#### 6)No signup required
 
 # Preview Screenshot-
 #### Homepage-
@@ -23,10 +23,10 @@ Pastebin-lite is a lightweight, full-stack web application that allows users to 
 ![viewpaster](https://jbocmsmgechiwurvokav.supabase.co/storage/v1/object/sign/pastebin%20content/view-paste.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNGU4YzVmNS0zYzdhLTRmOGMtOGM2ZC04N2JjYTU0ZWVhZWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwYXN0ZWJpbiBjb250ZW50L3ZpZXctcGFzdGUucG5nIiwiaWF0IjoxNzY3NDMzNzc2LCJleHAiOjE3OTg5Njk3NzZ9.Yi5WX_UwLlCznueUVnCqI7-GJcyY-GvFN2H7Cq1I2m8)
 
 # Tech Stack
-### Next.js (App Router)
-### Tailwind CSS
-### Supabase (PostgreSQL)
-### Vercel
+#### 1)Frontend Framework - Made use of Next.js to handle API routes and application logic
+#### 2)CSS Framework - Used Tailwind CSS for responsive UI styling
+#### 3)Supabase (PostgreSQL) - Backend as service platform to define database relation & data storage
+#### 4)Vercel - Used for app deployment.
 
 # How to run project locally
 1)Clone the repo -
