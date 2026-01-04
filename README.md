@@ -22,6 +22,10 @@ Pastebin-lite is a lightweight, full-stack web application that allows users to 
 #### View Paste - 
 ![viewpaster](https://jbocmsmgechiwurvokav.supabase.co/storage/v1/object/sign/pastebin%20content/view-paste.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNGU4YzVmNS0zYzdhLTRmOGMtOGM2ZC04N2JjYTU0ZWVhZWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwYXN0ZWJpbiBjb250ZW50L3ZpZXctcGFzdGUucG5nIiwiaWF0IjoxNzY3NDMzNzc2LCJleHAiOjE3OTg5Njk3NzZ9.Yi5WX_UwLlCznueUVnCqI7-GJcyY-GvFN2H7Cq1I2m8)
 
+
+#### My Paste -
+![mypaste](https://jbocmsmgechiwurvokav.supabase.co/storage/v1/object/sign/pastebin%20content/my-paste.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNGU4YzVmNS0zYzdhLTRmOGMtOGM2ZC04N2JjYTU0ZWVhZWIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwYXN0ZWJpbiBjb250ZW50L215LXBhc3RlLnBuZyIsImlhdCI6MTc2NzQ5NDgxMCwiZXhwIjoxNzk5MDMwODEwfQ.tHyofd-Hez64-mTcqMrpOKMmFQxY5Jcv4lRqreVQmv8)
+
 # Tech Stack
 #### 1)Frontend Framework - Made use of Next.js to handle API routes and application logic
 #### 2)CSS Framework - Used Tailwind CSS for responsive UI styling
